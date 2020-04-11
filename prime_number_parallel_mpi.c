@@ -136,6 +136,7 @@ int main(int argc, char *argv[])
 
     printf("Number of primes in range %d to %d = %d\n", 1, N, result);
     printf("%9.6f millisecs (%9.6f) secs \n", running_time, (running_time / 1000.0));
+    printf("number of threads is = %d \n", n_threads);
   }
   else
   {
